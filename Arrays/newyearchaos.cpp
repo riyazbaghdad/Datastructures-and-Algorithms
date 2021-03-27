@@ -7,7 +7,7 @@ vector<string> split_string(string);
 // Complete the minimumBribes function below.
 void minimumBribes(vector<int> q) {
    "Solution for New Year Chaos problem"
-   int ans = 0;
+    int ans = 0;
     for (int i = q.size() - 1; i >= 0; i--) {
         if (q[i] - (i + 1) > 2) {
             cout << "Too chaotic" << endl;
